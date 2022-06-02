@@ -1,0 +1,506 @@
+/*wl code ley zabt el carasoul w en kol*/
+
+body {
+  padding-top: 70px;
+  overflow-x: hidden;
+  }
+
+
+/*Start Nav bar*/
+/*size containerel nav bar*/
+
+.container-fluid {
+  padding-right: 20px;
+  padding-left: 20px;
+
+}
+
+/*size el nav bar*/
+.navbar {
+  min-height: 80px;
+  }
+
+  /*the active link in the nav bar*/
+  .navbar-inverse .navbar-nav > .active > a,
+   .navbar-inverse .navbar-nav > .active > a:hover,
+    .navbar-inverse .navbar-nav > .active > a:focus
+   {
+      color: #fff;
+      background-color:#2073d9;;
+  }
+
+       /*color el nav bar links*/
+  .navbar-inverse .navbar-nav > li > a {
+      color: #000000;
+      padding-top: 30px;
+      padding-bottom: 30px;
+      font-size: 16px;
+  }
+
+       .dropdown-menu {
+ border-top: 5px solid #2073d9;
+ width: 200px;
+}
+  /*color el text gwa el drop down*/
+    .dropdown-menu > li > a {
+        color: #2073d9;
+        }
+       /*color el hover gwa el drop down*/
+   .dropdown-menu > li > a:hover,
+   .dropdown-menu > li > a:focus {
+
+    background-color: #2073d9;;
+      font-weight: bold;
+       color: white;
+          }
+          /*color el divider*/
+.dropdown-menu .divider {
+  height: 2px;
+  background-color: #2073d9;
+
+}
+  .navbar-inverse .navbar-brand:hover,
+  .navbar-inverse .navbar-brand:focus {
+  color:#2073d9;
+  }
+
+/*color el logo*/
+    .navbar-inverse .navbar-brand {
+  color: #2073d9;
+  font-size: 30px;
+  font-family: monospace;
+  line-height: 40px;
+
+}
+
+ .navbar-inverse .navbar-brand span {
+  color: #2073d9;
+
+}
+/*hover el logo*/
+/*.navbar-inverse .navbar-brand:hover, .navbar-inverse .navbar-brand:focus {
+  color: #ffffff;
+
+  }*/
+
+/*hover el link f el nav bar*/
+.navbar-inverse .navbar-nav > li > a:hover, .navbar-inverse .navbar-nav > li > a:focus {
+  color: #2073d9;
+  background-color: transparent;
+}
+
+/*el toggle el zorar ely fel ganb*/
+.navbar-toggle {
+margin-top:18px;
+}
+
+/*End Nav bar*/
+
+/*start section about us */
+.about {
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+.about h1
+{
+
+  color:black;
+}
+.about h3
+{
+   padding-top: 15px;
+  color:black;
+
+}
+
+/*lead da el class bta3 el paragraph*/
+.about .lead
+{
+  color:#2073d9;
+  font-size:25px;
+  margin-top:15px;
+
+}
+/*end section about us
+
+/*Start section price table*/
+
+.price_table {
+
+  padding-left: 37px;
+  padding-right: 33px;
+  padding-top: 40px;
+  padding-bottom: 40px;
+
+}
+.price_table h1 {
+margin-bottom: 30px;
+color: black;
+font-family: 'Exo 2', sans-serif;
+
+}
+.price_table span {
+margin-bottom: 30px;
+color: #2073d9;;
+font-family: 'Exo 2', sans-serif;
+
+}
+
+.price_table .price_box {
+  background: white;
+  padding: 10px;
+  border: 1px solid #2073d9;;
+  margin-bottom: 15px;
+}
+
+.price_table .price_box h2 {
+  margin: 5px 0 15px;
+}
+
+.price_table .price_box p {
+ font-size: 35px;
+ font-weight: bold;
+ color: #2073d9;;
+}
+.price_table .price_box:hover img {
+  -webkit-transform: translateY(0px) scale(0.8);
+  -moz-transform: translateY(0px) scale(0.8);
+  -ms-transform: translateY(0px) scale(0.8);
+  -o-transform: translateY(0px) scale(0.8);
+  transform: translateY(0px) scale(0.8);
+}
+.price_table .price_box img {
+  -webkit-transition: all 0.35s ease-in-out;
+  -moz-transition: all 0.35s ease-in-out;
+  transition: all 0.35s ease-in-out;
+  width: 100%
+}
+.info li {
+  color: Black;
+  font-size: 14px;
+  font-weight: 600;
+  display: inline-block;
+}
+
+.info li.right-text {
+  color: #777;
+  text-decoration: line-through;
+  margin-left: 6em;
+  margin-bottom: 15px
+}
+
+ul.info {
+  margin: 1.5em 0;
+  margin-bottom: 15px;
+
+}
+
+.price_table .price_box  a {
+  display: block;
+ background-color: #2073d9;;
+color: white;
+padding: 5px;
+text-decoration: none;
+text-transform: uppercase;
+}
+
+.price_table .price_box  a:hover {
+background-color: #044594;
+color: white;
+}
+
+.price_table .price_box  a:active {
+background-color: black;
+}
+
+.price_table .price_box  a:visited {
+background-color: #044594;
+}
+
+/*End section price table*/
+/*start video*/
+.homepage-block-full-width video {
+  display: block;
+}
+video {
+  object-fit: contain;
+}
+/*end video*/
+
+/*start section contact us*/
+.contact-us{
+  /*background:url('../images/bk.jpg') no-repeat center center fixed;*/
+  background-color: #aca9a9;
+  -webkit-background-size:cover;
+  -moz-background-size:cover;
+  -o-background-size:cover;
+  background-size:cover;
+  height: 600px;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+.contact-us p {
+  margin-bottom: 40px;
+}
+
+.contact-us textarea {
+  height:108px;
+}
+.contact-us button {
+  background-color: #2073d9;;
+  color: white;
+  border: 0px;
+}
+
+/*end section contact us*/
+
+/*start footer*/
+.footer {
+  background:rgb(31, 30, 30);
+  color: #AAA;
+  padding-top: 20px;
+
+}
+
+.footer a {
+  color: #AAA;
+}
+.footer a:hover {
+  color: #FFF;
+}
+.footer h2 {
+  color:#2073d9;;
+  letter-spacing:1px;
+}
+.footer .threecol{
+overflow: hidden;
+}
+
+.footer .threecol li {
+  width: 33.33333%;
+  float: left;
+  padding: 5px;
+}
+
+.footer .icons{
+overflow: hidden;
+}
+
+.footer .icons li {
+  width: 15%;
+  float: left;
+
+}
+
+.footer .icons .fa-facebook {
+  color:#1D387D;
+}
+
+.footer .icons .fa-instagram {
+  color:#FCEEC5;
+}
+.footer .icons .fa-pinterest {
+  color:#F72349;
+}
+.footer .icons .fa-youtube-play {
+  color:red;
+}
+
+.footer .copyright{
+ background: rgb(37, 37, 37);
+  color: #aaa;
+  padding-top:15px;
+  padding-bottom: 15px;
+
+  margin-top: 20px;
+  font-size: 18px;
+}
+.footer .copyright span
+{
+  color:#2073d9;;
+}
+/*end footer*/
+
+
+/*start map*/
+
+.map-responsive{
+  overflow:hidden;
+  padding-bottom:56.25%;
+  position:relative;
+  height:0;
+  border: 5px solid rgba(255,121,0,.7);
+  margin: 25px;
+}
+.map-responsive iframe{
+  left:0;
+  top:0;
+  height:100%;
+  width:100%;
+  position:absolute;
+}
+/*start section mapabout */
+.map-about {
+  padding-top: 20px;
+
+}
+.map-about h1
+{
+
+  color:black;
+}
+.map-about h3
+{
+
+  color:black;
+
+}
+
+/*lead da el class bta3 el paragraph*/
+.map-about .lead
+{
+  color:#2073d9;;
+  font-size:25px;
+
+
+}
+/*end section about us
+/*end map*/
+/*start section login*/
+.login{
+ /* background:url('../images/bk.jpg') no-repeat center center fixed;*/
+ background-color: #aca9a9;
+  -webkit-background-size:cover;
+  -moz-background-size:cover;
+  -o-background-size:cover;
+  background-size:cover;
+  height: auto;
+  padding-top: 80px;
+  padding-bottom: 40px;
+
+
+}
+.login p {
+  margin-bottom: 40px;
+  /* font-style: */
+}
+
+.login input {
+width: 50%;
+margin: auto;
+color : black;
+
+}
+
+.login .form-control:focus {
+  border-color: #2073d9;;
+
+}
+
+.login  button:hover {
+  background-color: #044594;
+  color: white;
+}
+
+.login button {
+  background-color: #2073d9;;
+  color: white;
+  border: 0px;
+  width: 200px;
+  margin: auto;
+}
+.login i {
+color: #2073d9;;
+}
+
+.login a {
+color: #2073d9;;
+margin:10px;
+font-size: 20px;
+font-family: cursive;
+}
+
+.login a:hover {
+color:  #044594;
+text-decoration: none;
+}
+
+.register{
+ /* background:url('../images/bk.jpg') no-repeat center center fixed;*/
+ background-color: #ffffff;
+  -webkit-background-size:cover;
+  -moz-background-size:cover;
+  -o-background-size:cover;
+  background-size:cover;
+  height: auto;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  margin: auto;
+
+
+}
+.register p {
+  margin-bottom: 40px;
+  /* font-style: */
+}
+
+.register input {
+  padding: 10px,0,0,10px;
+margin: auto;
+color : black;
+
+}
+
+.register .form-control:focus {
+  border-color: #2073d9;;
+
+}
+
+.register  button:hover {
+  background-color:  #044594;
+  color: white;
+}
+
+.register button {
+  background-color: #2073d9;;
+  color: white;
+  border: 0px;
+  width: 200px;
+  margin: auto;
+}
+.register i {
+color: #2073d9;;
+}
+
+.register a {
+color: #2073d9;;
+margin:10px;
+font-size: 20px;
+font-family: cursive;
+}
+
+.register a:hover {
+color:  #044594;
+text-decoration: none;
+}
+
+.navbar-inverse {
+  background-color: rgb(255, 255, 255);
+  border-color: #ffffff;
+}
+
+.navbar-toggle {
+  position: relative;
+  float: right;
+  padding: 9px 10px;
+  margin-top: 8px;
+  margin-right: 15px;
+  margin-bottom: 8px;
+  background-color: #000000;
+  background-image: none;
+  border: 1px solid black;
+  border-radius: 4px;
+}
+/*end section login*/
+
+

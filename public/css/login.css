@@ -1,0 +1,86 @@
+
+.container-fluid{ height: 300px;}
+body{overflow-x: hidden;}
+
+.col3{height: 100px; background-color: rgb(255, 255, 255);align-content: center;}
+.col4{height: 590px; background-color:#458aaa; margin-top: -90px;margin-left: -15px;}
+.col9{height: 500px; background-color:  #ffffff;}
+.col5{height: 250px; background-color: rgb(0, 0, 0);}
+.col6{height: 250px; background-color: rgb(25, 29, 25);}
+.col7{height: 250px; background-color: rgb(200, 206, 200);}
+.col8{height: 250px; background-color: rgb(25, 110, 25);}
+
+.col10{height: 150px; background-color:  #ffffff;margin-top: -390px;}
+.col11{height: 150px;  background-color:  #ffffff;margin-top: -220px;}
+
+/*header css for text */
+.textofheader{padding-left:80px;   color: #273B98;
+    text-decoration: none;
+    font-family: 'Dubai Medium',Arial;
+    font-size: 15.0pt;
+    font-style: normal;
+    font-weight: 400;
+}
+.img1{width:115%;height: 115%;margin-top: -250px; margin-left: -180px;}
+.loging{color: rgb(101, 101, 223); font-size: 25px;padding-left: 50px;padding-top: 50px;}
+.Email{padding-left: 50px;padding-top: 20px;color: #282828;text-decoration: none;font-family: 'OpenSans-Regular',Arial;font-size: 15.0pt;}
+.passowrd{padding-left: 50px;padding-top: 20px;color: #282828;text-decoration: none;font-family: 'OpenSans-Regular',Arial;font-size: 15.0pt;}
+input[type=text] {
+    width: 50%;
+    height: 7%;
+    margin-left: 50px;
+    border-top-width: 2px;
+    border-top-style: solid;
+    border-top-color: #273B98;
+    border-right-width: 2px;
+    border-right-style: solid;
+    border-right-color: #273B98;
+    border-bottom-width: 2px;
+    border-bottom-style: solid;
+    border-bottom-color: #273B98;
+    border-left-width: 2px;
+    border-left-style: solid;
+    border-left-color: #273B98;
+    border-radius: 5px 5px 5px 5px
+  }
+
+  input[type=password] {
+    width: 50%;
+    height: 7%;
+    margin-left: 50px;
+    border-top-width: 2px;
+    border-top-style: solid;
+    border-top-color: #273B98;
+    border-right-width: 2px;
+    border-right-style: solid;
+    border-right-color: #273B98;
+    border-bottom-width: 2px;
+    border-bottom-style: solid;
+    border-bottom-color: #273B98;
+    border-left-width: 2px;
+    border-left-style: solid;
+    border-left-color: #273B98;
+    border-radius: 5px 5px 5px 5px
+  }
+
+  .circle {
+    position: relative;
+    border-radius: 50%;
+    width: 28%;
+    height: auto;
+    padding-top: 25%;
+    background:white;
+    margin-left: -100px;
+    margin-top: -1px;
+    }
+
+    .circle2 {
+      position: relative;
+      border-radius: 50%;
+      width: 28%;
+      height: auto;
+      padding-top: 25%;
+      background:#458aaa;
+      margin-left: -100px;
+      margin-top: -167px;
+      }

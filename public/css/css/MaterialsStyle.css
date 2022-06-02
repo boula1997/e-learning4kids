@@ -1,0 +1,30 @@
+body{
+overflow-x: hidden;
+}
+.container-fluid{ height: 300px;}
+
+.col1{height: 60px; background-color: cornflowerblue;}
+.col2{height: 60px; background-color: rgb(4, 31, 80);}
+.col3{height: 100%;margin-top:70px;}
+
+.col4{height: 75px;margin:15px 9%;}
+
+.col5{height: 75px; }
+.col6{height: 75px; }
+
+.square{
+    height: 25px;
+    width: 25px;
+    display: inline-block;
+    background: #c7c2c3;
+    margin:25px 10px 10px 0px;
+
+    /* margin-top: 50px; */
+}
+
+
+
+.col13{height: 250px; background-color: rgb(0, 0, 0);}
+.col14{height: 250px; background-color: rgb(25, 29, 25);}
+.col15{height: 250px; background-color: rgb(200, 206, 200);}
+.col16{height: 250px; background-color: rgb(25, 110, 25);} 

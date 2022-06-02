@@ -1,0 +1,13 @@
+.container{background-color: blueviolet; height:300px ;}
+.container-fluid{background-color: chartreuse; height: 300px;}
+
+.col1{height: 60px; background-color: cornflowerblue;}
+.col2{height: 60px; background-color: rgb(4, 31, 80);}
+.col3{height: 300px; background-color: rgb(59, 4, 80);}
+.col4{height: 300px; background-color: rgb(219, 223, 15);}
+.col7{height: 60px; background-color: rgb(51, 73, 54);}
+.col8{height: 40px; background-color: rgb(215, 230, 217);}
+.col13{height: 250px; background-color: rgb(0, 0, 0);}
+.col14{height: 250px; background-color: rgb(25, 29, 25);}
+.col15{height: 250px; background-color: rgb(200, 206, 200);}
+.col16{height: 250px; background-color: rgb(25, 110, 25);}

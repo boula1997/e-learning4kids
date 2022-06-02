@@ -1,0 +1,55 @@
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+.breadcrumb-holder 
+{
+    background-color: #f5f5f5;
+}
+
+.breadcrumb 
+{
+    padding: 10px 0;
+    margin: 0;
+}
+
+.about-us {
+    padding: 70px 0;
+    
+}
+
+.about-us h1 {
+    font-family: 'raleway',sans-serif ;
+    letter-spacing: -3px;
+    font-size: 62px;
+}
+
+.about-us hr {
+    width: 70%
+}
+
+.about-features 
+{
+    padding: 0 0 70px;
+    
+}
+.about-features p {
+    margin-bottom: 20px;
+}
+
+.about-ceo {
+    background-color: #eee;
+    padding: 40px;
+}
+
+.about-ceo .lead {
+    line-height: 1.8;
+}
+
+.about-ceo .btn-primary {
+    background-color: #333;
+    border-color: #333;
+    display: inline-blok;
+    margin-bottom: 30px;
+}

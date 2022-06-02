@@ -1,0 +1,92 @@
+
+.container-fluid{height: 300px;}
+body{
+    overflow-x: hidden;
+}
+
+.col1{height: 60px; background-color: cornflowerblue;}
+.col2{height: 60px; background-color: rgb(4, 31, 80);}
+/* body */
+.col3{height: 100%;}
+/* teacher create */
+.col4{
+    height: 70px;
+    margin:50px 17%; 
+    /* background-color: rgb(219, 223, 15); */
+    text-align: left;
+    padding: 15px;
+}
+/* after teacher create body*/
+.col5 {
+    /* height: 600px; */
+    margin: 50px 25% 0px 25%;
+    /* background-color: gainsboro; */
+    /* border-radius: 15px; */
+}
+.col6{
+    margin: 20px 40px 0px 40px;
+    
+    text-align: center;
+    
+   
+}
+form{
+    margin-bottom:100px;
+}
+
+/* .col16 input{
+    width: 100%;
+    outline: none;
+    box-shadow: none ;
+    box-sizing: border-box;
+    border: 2px solid #fab3c4;
+    position: absolute;
+} */
+/* textarea {
+    width: 300px;
+    height: 100px;
+} */
+
+.common-btn{
+    margin: 0px 0px 0 0;
+    /* float: right; */
+    /* padding: 3px 10px; */
+    background: transparent;
+    outline: none;
+    border-radius: 10px;
+    border: 2px solid  ;
+    
+    font-weight: bold;
+    cursor: pointer;
+}
+
+/* clo7{
+    
+} */
+
+ input{
+    padding: 10px 30px;
+    margin-bottom: 5px;
+    outline: none;
+    box-shadow: none ;
+    box-sizing: border-box;
+    border-radius: 15px;
+    border: 1.9px solid #2073d9;
+}
+.des{
+    padding: 30px 150px;
+    margin-bottom: 5px;
+    outline: none;
+    box-shadow: none ;
+    box-sizing: border-box;
+    border-radius: 15px;
+    border: 1.5px solid #2073d9;
+    /* border: 2px solid #fab3c4; */
+}
+
+
+
+.col13{height: 250px; background-color: rgb(0, 0, 0);}
+.col14{height: 250px; background-color: rgb(25, 29, 25);}
+.col15{height: 250px; background-color: rgb(200, 206, 200);}
+.col16{height: 250px; background-color: rgb(25, 110, 25);} 
